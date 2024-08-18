@@ -11,12 +11,12 @@ Follow these steps to run and test the project:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/mhk98/digital-agency-backend.git
+   git clone https://github.com/mhk98/digital-marketing-admin.git
 
    ```
 
-2. Open command prompt and type cd digital-agency-admin
+2. Open command prompt and type cd digital-marketing-admin
 3. Env Access
 4. npm install (Install project dependencies)
-5. npm run dev (Run the Bookstore project)
-6. The server will be running at http://localhost:5000
+5. npm run dev (Run the project)
+6. The server will be running at http://localhost:3000

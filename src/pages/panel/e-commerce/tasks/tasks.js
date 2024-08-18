@@ -194,7 +194,7 @@ const Tasks = () => {
 
   //   console.log("formData", formData);
   //   try {
-  //     const data = await axios.put(`http://localhost:5000/api/v1/category/${updateId}`, formData);
+  //     const data = await axios.put(`https://digital-agency-backend.onrender.com/api/v1/category/${updateId}`, formData);
 
   //     if (data) {
   //       toast.success(data.data.message);

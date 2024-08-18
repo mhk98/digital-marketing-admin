@@ -6,7 +6,7 @@ const getToken = () => {
 export const taskApi = createApi({
   reducerPath: "taskApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/api/v1/",
+    baseUrl: "https://digital-agency-backend.onrender.com/api/v1/",
   }),
 
   tagTypes: ["tasks"], // Define the tag type
