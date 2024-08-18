@@ -36,7 +36,7 @@ const User = () => {
         }}
       >
         <div className="user-toggle">
-          <img style={{ width: "40px" }} src={`https://digital-agency-backend.onrender.com/${image}`} className="sm" alt="" />
+          <img style={{ width: "40px" }} src={`http://localhost:5000/${image}`} className="sm" alt="" />
           <div className="user-info d-none d-md-block ms-2">
             <div className="user-status">Administrator</div>
             <div className="user-name dropdown-indicator">{name}</div>
@@ -47,7 +47,7 @@ const User = () => {
         <div className="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
           <div className="user-card sm">
             <div className="user-avatar">
-              <img style={{ width: "40px" }} src={`https://digital-agency-backend.onrender.com/${image}`} className="sm" alt="" />
+              <img style={{ width: "40px" }} src={`http://localhost:5000/${image}`} className="sm" alt="" />
             </div>
             <div className="user-info">
               <span className="lead-text">{name}</span>

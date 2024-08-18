@@ -16,7 +16,7 @@ const ForgotPassword = () => {
       Email: email,
       Password: password,
     };
-    const res = await axios.patch("https://digital-agency-backend.onrender.com/api/v1/user/forgot-password", data);
+    const res = await axios.patch("http://localhost:5000/api/v1/user/forgot-password", data);
     if (res.data.status === "Success") {
       toast.success("Successfully update password");
     }

@@ -351,7 +351,7 @@ const AllUser = () => {
                     </DataTableRow> */}
                     <DataTableRow size="sm">
                       <span className="tb-product">
-                        <img src={`https://digital-agency-backend.onrender.com/${item.image}`} alt="product" className="thumb" />
+                        <img src={`http://localhost:5000/${item.image}`} alt="product" className="thumb" />
                       </span>
                     </DataTableRow>
 
@@ -523,7 +523,7 @@ const AllUser = () => {
                           {file ? (
                             <img src={file} alt="" />
                           ) : (
-                            <img src={`https://digital-agency-backend.onrender.com/${editData.image}`} alt="" />
+                            <img src={`http://localhost:5000/${editData.image}`} alt="" />
                           )}
                         </div>
                       </div>

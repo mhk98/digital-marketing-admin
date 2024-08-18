@@ -31,7 +31,7 @@ const Login = () => {
 
     console.log(data);
     try {
-      const response = await axios.post("https://digital-agency-backend.onrender.com/api/v1/user/login", data);
+      const response = await axios.post("http://localhost:5000/api/v1/user/login", data);
 console.log('login info', response.data.data);
       if (response.data.status === "success") {
         localStorage.setItem("token", response.data.data.accessToken);

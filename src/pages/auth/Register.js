@@ -66,7 +66,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "https://digital-agency-backend.onrender.com/api/v1/user/signup",
+        "http://localhost:5000/api/v1/user/signup",
 
         formData
       );
